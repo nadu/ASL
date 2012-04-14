@@ -1,7 +1,6 @@
 TODO 
 - add parameters so that 
 	position and size of the box is customizable
-	number of seconds till when the image stays
-- click on the translation to go to the main ASL page
-- rename ids with a prefix of 
+	number of seconds till when the image stays 
 - refactor to make it better
+- Chrome extension and submit to store
