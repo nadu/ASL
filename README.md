@@ -6,7 +6,7 @@ This is [a working example] (http://www.naduism.com/hacks/ASL/ "Example") built 
 
 This library has a JavaScript file and a CSS file. To use, 
 
-1) Add the JavaScript file anywhere before the end of the body tag and make a call to 
+1) Add the JavaScript `(asl.js)` file anywhere before the end of the body tag and make a call to 
 	`ASL.setup(options, callback);`
 
 	// ASL.setup() takes 2 optional parameters
@@ -16,7 +16,7 @@ This library has a JavaScript file and a CSS file. To use,
 	// if you don't set displayTime, the widget doesn't disappear from the page
 	// callback is a pointer to a function that you wish to call when the ASL widget is shown
 
-2) Include the CSS styles from the library in your stylesheet. The position of the widget can be changed using the styles. The default position of the widget is the top right corner of the page. Modify the CSS to change the size and position of the widget. 
+2) Include the CSS styles from `asl.css` in your stylesheet. The position of the widget can be changed using the styles. The default position of the widget is the top right corner of the page. Modify the CSS to change the size and position of the widget. 
 
 3) Try it out by double clicking any word on your web page and spread the love. 
 
