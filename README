@@ -1,4 +1,20 @@
-v0.1
-This JavaScript snippet shows an ASL translation whenever any word on the web page is selected. To use this just stick the script anywhere before the end of the body tag.
+v0.2
+The ASL JS library is built to enable an ASL translation of words on your web page. Users of your web page can then double click on any word to see the American Sign Language representation of the word. Check out a working example here - 
+This is [a working example] (http://www.naduism.com/hacks/ASL/ "Example") built using the ASL JS library 
+
+This library has a JavaScript file and a CSS file. To use, 
+1) Add the JavaScript file anywhere before the end of the body tag and make a call to 
+	ASL.setup(options, callback);
+	// ASL.setup() takes 2 optional parameters
+	// where options is a JavaScript object which currently takes one displayTime in seconds
+	// that is the number of seconds that the ASL widget remains on screen after double clicking a word
+	// var options = {displayTime:10} // default is around 8 seconds, if you pass -1, it will not disappear
+	// callback is a pointer to a function that you wish to call when the ASL widget is shown
+
+2) Include the CSS styles from the library in your stylesheet. The position of the widget can be changed using the styles.
+
+3) Try it out by double clicking any word on your web page and spread the love. 
+
+The code getting the selected word in a page was used from [mark.kolich.com] (http://mark.kolich.com)
 
 

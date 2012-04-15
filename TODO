@@ -2,5 +2,6 @@ TODO
 - add parameters so that 
 	position and size of the box is customizable
 	number of seconds till when the image stays 
+- how to handle words that fail
 - refactor to make it better
 - Chrome extension and submit to store
