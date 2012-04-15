@@ -9,6 +9,7 @@ This is [a working example] (http://www.naduism.com/hacks/ASL/ "Example") built 
 This library has a JavaScript file and a CSS file. To use, 
 1) Add the JavaScript file anywhere before the end of the body tag and make a call to 
 	`ASL.setup(options, callback);`
+
 	`// ASL.setup() takes 2 optional parameters`
 	`// first parameter is options - JavaScript object which currently takes displayTime in seconds`
 	`// that is the number of seconds that the ASL widget remains on screen after double clicking a word`
