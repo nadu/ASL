@@ -1,9 +1,11 @@
 /* styles for the ASL widget */
 
+/* this is the outer container of the ASL widget */
 #asl-outer-container{
 
 }
 
+/* this container has the ASL iframe, the loading image and the See More link */
 #asl-container{
 	background-color:white; 
 	width: 240px; 
@@ -29,6 +31,7 @@
 	z-index:-1;
 }
 
+/* the actual ASL iframe */
 #asl-iframe{
 	margin-right:10px;
 	height:180px; 
