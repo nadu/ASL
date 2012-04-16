@@ -1,7 +1,7 @@
 ASL JS Library (v0.2)
 ---------------------
 
-The ASL JS library is built to enable an ASL translation of words on your web page. Users of your web page can then double click on any word to see the American Sign Language representation of the word. Check out a working example here - 
+The ASL JS library is built to enable an ASL translation of words on your web page. Users of your web page can double click on any word to see the American Sign Language representation of the word. Check out a working example here - 
 This is [a working example] (http://www.naduism.com/hacks/ASL/ "Example") built using the ASL JS library 
 
 This library has a JavaScript file and a CSS file. To use, 
