@@ -10,11 +10,14 @@ This library has a JavaScript file and a CSS file. To use,
 	`ASL.setup(options, callback);`
 
 	// ASL.setup() takes 2 optional parameters
-	// first parameter is options - JavaScript object which currently takes displayTime in seconds
+	// 1st parameter is options - JavaScript object 
+	// its can have properties 
+	// displayTime in seconds (default is infinity)
 	// that is the number of seconds that the ASL widget remains on screen after double clicking a word
-	// var options = {displayTime:10} 
-	// if you don't set displayTime, the widget doesn't disappear from the page
-	// callback is a pointer to a function that you wish to call when the ASL widget is shown
+	// scrolling - true/false - to set scrolling on the ASL widget or not (default - false)
+	// var options = {displayTime:10, scrolling:true}
+	// 2nd parameter is function pointer   
+	// to the method that you wish to call when the ASL widget is shown
 
 2) Include the CSS styles from `asl.css` in your stylesheet. The position of the widget can be changed using the styles. The default position of the widget is the top right corner of the page. Modify the CSS to change the size and position of the widget. 
 

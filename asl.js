@@ -6,7 +6,7 @@ ASL =
 	var utils = {addListener:null, removeListener:null};
 	var showASLTimer;
 	var options = {};
-	var defaults = {displayTime: 86400, callback : function(){}};
+	var defaults = {displayTime: 86400, scrolling:'no',callback : function(){}};
 
 
 	var init = function(){
@@ -21,6 +21,7 @@ ASL =
 		_options = _options || {};
 		options.callback = callback || defaults.callback;
 		options.displayTime = _options.displayTime ? _options.displayTime : defaults.displayTime;
+		options.scrolling = _options.scrolling ? 'yes' : defaults.scrolling;
 		init();
 	};
 
@@ -67,7 +68,7 @@ ASL =
             clearTimeout(showASLTimer);			
 			var outerContainer = document.getElementById("asl-outer-container");
 			var html = "<div id='asl-container'><a href='"+src+"'>See More</a>";
-			html += "<iframe id='asl-iframe' frameBorder='0' scrolling='no' name='asl-iframe' src='"+src+"'/>"
+			html += "<iframe id='asl-iframe' frameBorder='0' scrolling='"+options.scrolling+"' name='asl-iframe' src='"+src+"'/>"
 			html += "</div>	";
 
 			outerContainer.innerHTML = html;
